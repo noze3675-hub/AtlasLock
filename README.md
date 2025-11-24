@@ -1,7 +1,7 @@
 # AtlasLock
 (Official website) https://atlaslap.com 
 
-Windows folder encryption tool (.atlas format) using Argon2 + XChaCha20-Poly1305 + Zstd compression. Runs locally · No telemetry.
+Free windows folder encryption tool (.atlas format) using Argon2 + XChaCha20-Poly1305 + Zstd compression. Runs locally · No telemetry.
 
 
 <img width="460" height="412" alt="Screenshot 2025-11-24 190237" src="https://github.com/user-attachments/assets/c556b2cb-e76a-4ed0-9a3b-5dcfb6b67486" />
