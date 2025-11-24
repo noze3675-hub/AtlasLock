@@ -2,7 +2,7 @@
 
 (Official website) https://atlaslap.com
 
-Secure folder-to-archive encryption for Windows.  
+Free secure folder-to-archive encryption for Windows.  
 Turn any folder into a single protected `.atlas` file.  
 **Runs locally · No cloud · No telemetry.**
 
@@ -86,7 +86,7 @@ No cloud dependencies, no background syncing — everything is offline.
 
 ---
 
-# Download
+# Download Free
 
 Official installers and builds are available on the website:
 
