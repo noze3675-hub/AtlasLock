@@ -26,12 +26,12 @@ Secure defaults – The application uses safe defaults for cryptographic paramet
 In short, AtlasLock aims to behave like a dedicated, modern encryption tool rather than a “fancy archive format”, focusing on strong password resistance, authenticated encryption, and predictable, local-only behavior.
 
 
-File to .atlas
+# File to .atlas
 
 <img width="270" height="177" alt="B" src="https://github.com/user-attachments/assets/6e707413-26f7-43e0-a90c-0c2080ce5a0e" />
 
 
 
-A respectful comparison focused on features, not opinions.
+# A respectful comparison focused on features, not opinions.
 
 <img width="1508" height="489" alt="C" src="https://github.com/user-attachments/assets/a1675458-1854-41e0-9573-e876564d40ac" />
