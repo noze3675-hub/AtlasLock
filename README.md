@@ -32,5 +32,4 @@ File to .atlas
 
 
 A respectful comparison focused on features, not opinions.
-
 <img width="1508" height="489" alt="Screenshot 2025-11-24 185303" src="https://github.com/user-attachments/assets/591fda39-7df6-4630-9fee-54621d09a1c9" />
