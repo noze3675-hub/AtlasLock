@@ -1,8 +1,9 @@
 # AtlasLock
 Windows folder encryption tool (.atlas format) using Argon2 + XChaCha20-Poly1305 + Zstd compression. Runs locally · No telemetry.
-<img width="280" height="177" alt="Screenshot 2025-11-24 190211" src="https://github.com/user-attachments/assets/651422ad-5b94-4ef4-809d-4de4dfe6960a" />
-<img width="460" height="412" alt="Screenshot 2025-11-24 190237" src="https://github.com/user-attachments/assets/c556b2cb-e76a-4ed0-9a3b-5dcfb6b67486" />
 
+<img width="280" height="177" alt="Screenshot 2025-11-24 190211" src="https://github.com/user-attachments/assets/651422ad-5b94-4ef4-809d-4de4dfe6960a" />
+
+<img width="460" height="412" alt="Screenshot 2025-11-24 190237" src="https://github.com/user-attachments/assets/c556b2cb-e76a-4ed0-9a3b-5dcfb6b67486" />
 
 
 AtlasLock is designed with a modern, defense-in-depth security model rather than relying on legacy archive formats.
