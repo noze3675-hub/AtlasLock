@@ -1,37 +1,93 @@
 # AtlasLock
-(Official website) https://atlaslap.com 
 
-Free windows folder encryption tool (.atlas format) using Argon2 + XChaCha20-Poly1305 + Zstd compression. Runs locally · No telemetry.
+(Official website) https://atlaslap.com
 
+Secure folder-to-archive encryption for Windows.  
+Turn any folder into a single protected `.atlas` file.  
+**Runs locally · No cloud · No telemetry.**
 
-<img width="460" height="412" alt="A" src="https://github.com/user-attachments/assets/13dbb09b-7056-4d50-bbab-7c3d429f6707" />
+> This repository provides public information, screenshots and issue tracking.  
+> The **source code is private** and is not included in this repository.
 
+---
 
-AtlasLock is designed with a modern, defense-in-depth security model rather than relying on legacy archive formats.
+# Overview
 
-Strong password protection – User passwords are processed through a modern, memory-hard password hashing function from the Argon2 family, making large-scale brute-force attacks significantly more expensive compared to traditional ZIP/RAR style encryption.
+**AtlasLock** is a modern Windows encryption tool that converts any folder into a single encrypted `.atlas` archive.  
+It is built to be clean, predictable and user-friendly — without cloud services, accounts or unnecessary complexity.
 
-Authenticated encryption – All user data is encrypted with an AEAD (authenticated encryption with associated data) construction from a well-audited cryptographic library. This ensures that files are not only confidential, but also protected against silent tampering or corruption.
+Unlike traditional “password-protected ZIP/RAR” archives, AtlasLock uses **proper encryption**, safe defaults and a contemporary security model.
 
-Per-archive salts and unique keys – Each .atlas archive uses its own random salt and derived key material, so compromising one archive does not help an attacker with any other archive.
+---
 
-Integrity of metadata – Not only the file contents, but also the internal structure and metadata of the archive are protected by integrity checks, so modified or truncated archives are detected during unlock rather than producing partial or corrupted output.
+# Security (10/10)
 
-Streaming architecture – Encryption and decryption are implemented in a streaming fashion, so large folders can be processed without keeping everything in memory at once. This reduces the attack surface and avoids unsafe ad-hoc buffering.
+AtlasLock follows a defense-in-depth approach based on modern, well-established cryptographic principles.  
+Internal implementation details are intentionally not exposed.
 
-Local-only cryptography – All cryptographic operations run entirely on the user’s device. No keys or file contents are sent to remote servers, and AtlasLock does not rely on any cloud component.
+- **Strong password protection**  
+  Passwords are processed with a modern, memory-hard KDF (Argon2 family), significantly increasing brute-force cost.
 
-Secure defaults – The application uses safe defaults for cryptographic parameters and does not expose low-level tuning options that could accidentally weaken security.
+- **Authenticated encryption**  
+  The entire archive is encrypted using an AEAD construction, ensuring confidentiality and **tamper detection**.
 
-In short, AtlasLock aims to behave like a dedicated, modern encryption tool rather than a “fancy archive format”, focusing on strong password resistance, authenticated encryption, and predictable, local-only behavior.
+- **Per-archive randomness**  
+  Each `.atlas` file uses its own random salt and unique derived key material.
 
+- **Protected metadata**  
+  Both file contents and structural metadata are validated to prevent silent corruption or manipulated archives.
 
-# File to .atlas
+- **Streaming encryption architecture**  
+  Large folders are processed in a streaming fashion without loading everything into memory at once.
 
-<img width="270" height="177" alt="B" src="https://github.com/user-attachments/assets/6e707413-26f7-43e0-a90c-0c2080ce5a0e" />
+- **Local-only cryptography**  
+  All operations happen on the user’s machine. AtlasLock does not upload files, keys or analytics.
 
+In short, AtlasLock behaves like a dedicated encryption system — not a themed ZIP.
 
+---
 
-# A respectful comparison focused on features, not opinions.
+# How it works
 
-<img width="1508" height="489" alt="C" src="https://github.com/user-attachments/assets/a1675458-1854-41e0-9573-e876564d40ac" />
+### **1. Locking a folder**
+- Select the folder  
+- Enter your password  
+- AtlasLock compresses + encrypts everything into a single `.atlas` file
+
+### **2. Unlocking**
+- Open an existing `.atlas` archive  
+- Enter the correct password  
+- The original folder structure is restored
+
+No cloud dependencies, no background syncing — everything is offline.
+
+---
+
+# Features
+
+- One-click folder → `.atlas` conversion  
+- Clean, lightweight Windows interface  
+- Integrated compression + encryption  
+- Safe cryptographic defaults  
+- Predictable performance on large folders  
+- Corruption detection and recovery safeguards  
+- Designed with reliability and simplicity in mind  
+- “Made in Greece” — single-developer project with no telemetry
+
+---
+
+# System Requirements
+
+- **OS:** Windows 10 / Windows 11 (64-bit)  
+- **Admin rights:** Not required  
+- **Internet:** Not required for normal use  
+
+---
+
+# Download
+
+Official installers and builds are available on the website:
+
+Website https://atlaslap.com
+
+Support support@atlaslap.com
