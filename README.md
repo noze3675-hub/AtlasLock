@@ -95,3 +95,7 @@ Official installers and builds are available on the website:
 Website https://atlaslap.com
 
 Support support@atlaslap.com
+
+---
+
+<img width="1508" height="489" alt="C" src="https://github.com/user-attachments/assets/4a6e83f5-78c6-41f0-b795-494f6936af00" />
