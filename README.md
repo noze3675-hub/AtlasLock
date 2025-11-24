@@ -1,4 +1,5 @@
 # AtlasLock
+(Official website) https://atlaslap.com 
 Windows folder encryption tool (.atlas format) using Argon2 + XChaCha20-Poly1305 + Zstd compression. Runs locally · No telemetry.
 
 
@@ -22,6 +23,7 @@ Local-only cryptography – All cryptographic operations run entirely on the use
 Secure defaults – The application uses safe defaults for cryptographic parameters and does not expose low-level tuning options that could accidentally weaken security.
 
 In short, AtlasLock aims to behave like a dedicated, modern encryption tool rather than a “fancy archive format”, focusing on strong password resistance, authenticated encryption, and predictable, local-only behavior.
+
 
 File to .atlas
 
