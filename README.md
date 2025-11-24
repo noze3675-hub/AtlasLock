@@ -6,6 +6,8 @@ Secure folder-to-archive encryption for Windows.
 Turn any folder into a single protected `.atlas` file.  
 **Runs locally · No cloud · No telemetry.**
 
+<img width="460" height="412" alt="A" src="https://github.com/user-attachments/assets/4f7d692e-c786-488c-8e96-4b8f1abb15d4" />
+
 > This repository provides public information, screenshots and issue tracking.  
 > The **source code is private** and is not included in this repository.
 
