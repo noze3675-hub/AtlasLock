@@ -46,6 +46,7 @@ Internal implementation details are intentionally not exposed.
   All operations happen on the user’s machine. AtlasLock does not upload files, keys or analytics.
 
 In short, AtlasLock behaves like a dedicated encryption system — not a themed ZIP.
+<img width="270" height="177" alt="B" src="https://github.com/user-attachments/assets/5c5f8e8d-2e7d-4739-8d2b-eb594616f7f1" />
 
 ---
 
